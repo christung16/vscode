@@ -14,5 +14,5 @@
     aci_tenant:
         <<: *api_info
         tenant: "vs_code_testing" # required. The name of the tenant.
-        state: absent # not required. choices: absent;present;query. Use C(present) or C(absent) for adding or removing.,Use C(query) for listing an object or multiple objects.
+        state: present # not required. choices: absent;present;query. Use C(present) or C(absent) for adding or removing.,Use C(query) for listing an object or multiple objects.
         
